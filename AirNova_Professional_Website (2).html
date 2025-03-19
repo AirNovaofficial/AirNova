@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirNova – Fresh Air, Everywhere</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        header {
+            background: #2E8B57;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 50px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #1E90FF;
+            padding: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background: #FF4500;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .features {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .feature {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+            width: calc(33% - 20px);
+            transition: 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+        .feature img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .cta {
+            background: #FF4500;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .cta button {
+            background: #fff;
+            color: #FF4500;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .cta button:hover {
+            background: #f4f4f4;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AirNova</h1>
+    <p>Fresh Air, Everywhere</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="container">
+    <h2>About Us</h2>
+    <p>AirNova is dedicated to providing innovative solutions to combat air pollution. Our nose filter buds offer 
+    discreet and effective protection, making clean air accessible anytime, anywhere.</p>
+</section>
+
+<section id="features" class="container">
+    <h2>Product Features</h2>
+    <div class="features">
+        <div class="feature">
+            <img src="airnova_product1.png" alt="Compact Design">
+            <h3>Compact & Comfortable</h3>
+            <p>Designed for maximum comfort, easy to wear and discreet.</p>
+        </div>
+        <div class="feature">
+            <img src="airnova_product2.png" alt="Effective Filtration">
+            <h3>Effective Filtration</h3>
+            <p>Filters out dust, pollen, and harmful particles efficiently.</p>
+        </div>
+        <div class="feature">
+            <img src="airnova_product3.png" alt="Eco-Friendly">
+            <h3>Eco-friendly</h3>
+            <p>Made from sustainable, skin-friendly materials.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Stay Updated</h2>
+    <p>Subscribe now to get early access and updates on our product launch!</p>
+    <button>Subscribe</button>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>Email: contact@airnova.com</p>
+    <p>Website: www.airnovafilters.com</p>
+    <p>Social: @AirNovaOfficial</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 AirNova. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
